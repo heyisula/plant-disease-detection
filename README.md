@@ -226,7 +226,7 @@ plant-disease-detection/
 
 - **Feature Vector Size:** 56 features per image (48 color + 5 texture + 3 spot features)
 - **Train / Test Split:** 80% / 20% (stratified)
-- **Classifier:** SVM with RBF kernel (`C=10`, `gamma='scale'`)
+- **Classifier:** SVM with RBF kernel (`C=1`, `gamma='scale'`)
 - **Key Observation:** Diseased leaves showed significantly higher brown/yellow pixel ratios and greater GLCM contrast values compared to healthy leaves, making them reliably separable using extracted features alone.
 
 <div>
