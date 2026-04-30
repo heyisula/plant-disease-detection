@@ -210,11 +210,12 @@ plant-disease-detection/
 │   ├── healthy/
 │   └── diseased/
 │
-├── out/                ← outputs
+├── out/                      ← outputs
+│   └── visualizations/       ← outputs for report
 │
-├── docs/               ← project documentation
+├── docs/                     ← project documentation
 │
-├── train.ipynb         ← main notebook
+├── train.ipynb               ← main notebook
 ├── requirements.txt
 └── README.md
 ```
