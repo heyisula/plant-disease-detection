@@ -16,7 +16,7 @@
 ![Dataset](https://img.shields.io/badge/Dataset-PlantVillage-blue?style=flat-square)
 ![Images](https://img.shields.io/badge/Images-200-orange?style=flat-square)
 ![Classifier](https://img.shields.io/badge/Classifier-SVM_RBF-9cf?style=flat-square)
-
+![Accuracy](https://img.shields.io/badge/Accuracy-95%25-brightgreen?style=flat-square)
 <br/>
 
 > Detecting bacterial spot disease in pepper bell leaves using classical image processing techniques combined with machine learning — designed as a low-cost alternative to expert visual inspection.
@@ -210,11 +210,12 @@ plant-disease-detection/
 │   ├── healthy/
 │   └── diseased/
 │
-├── out/                ← outputs
+├── out/                      ← outputs
+│   └── visualizations/       ← outputs for report
 │
-├── docs/               ← project documentation
+├── docs/                     ← project documentation
 │
-├── train.ipynb         ← main notebook
+├── train.ipynb               ← main notebook
 ├── requirements.txt
 └── README.md
 ```
